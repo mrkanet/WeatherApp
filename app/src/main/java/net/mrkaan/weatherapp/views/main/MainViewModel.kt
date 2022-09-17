@@ -1,4 +1,4 @@
-package net.mrkaan.weatherapp.views
+package net.mrkaan.weatherapp.views.main
 
 import android.location.Location
 import androidx.lifecycle.MutableLiveData

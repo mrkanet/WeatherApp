@@ -1,5 +1,7 @@
 package net.mrkaan.weatherapp.util.request
 
+import java.io.Serializable
+
 data class ResponseModel(
     val city_name: String,
     val country_code: String,
@@ -12,15 +14,17 @@ data class ResponseModel(
 
 data class Data(
     val datetime: String,
+    val max_temp: Double,
+    val min_temp: Double,
     val temp: Double,
     val weather: Weather,
-)
+) : Serializable
 
 data class Weather(
     val code: Int,
     val description: String,
     val icon: String
-)
+) : Serializable
 
 
 /*
