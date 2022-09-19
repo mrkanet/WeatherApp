@@ -19,6 +19,10 @@ import net.mrkaan.weatherapp.util.ImageClass
 import net.mrkaan.weatherapp.util.request.Data
 import net.mrkaan.weatherapp.views.main.getDate
 
+/**
+ * Commonly used composables are in this class and they can be reached from anywhere.
+ * This is like a common ui library.
+  */
 class CommonComposable {
     companion object {
 

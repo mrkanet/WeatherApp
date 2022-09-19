@@ -20,6 +20,9 @@ import net.mrkaan.weatherapp.util.request.Data
 import net.mrkaan.weatherapp.views.CommonComposable
 import net.mrkaan.weatherapp.views.detailed.DetailedWeatherDataActivity
 
+/**
+ * This page is using to see all 16 days weather forecast.
+ */
 class AllWeatherDataActivity : ComponentActivity() {
 
     @OptIn(ExperimentalFoundationApi::class)

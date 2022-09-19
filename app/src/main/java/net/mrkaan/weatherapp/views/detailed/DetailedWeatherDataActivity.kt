@@ -19,6 +19,10 @@ import net.mrkaan.weatherapp.views.CommonComposable
 import net.mrkaan.weatherapp.views.main.SetImage
 import net.mrkaan.weatherapp.views.main.getDate
 
+/**
+ * You can see detailed weather in this page,
+ * This page opens when you click on not detailed weather list item.
+ */
 class DetailedWeatherDataActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
